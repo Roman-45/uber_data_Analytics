@@ -1,0 +1,35 @@
+Column Name,Data Type,Description,Category
+key,String,Unique trip identifier,Original
+fare_amount,Float,Fare amount in USD,Original
+pickup_datetime,DateTime,Pickup timestamp,Original
+pickup_longitude,Float,Pickup longitude coordinate,Original
+pickup_latitude,Float,Pickup latitude coordinate,Original
+dropoff_longitude,Float,Dropoff longitude coordinate,Original
+dropoff_latitude,Float,Dropoff latitude coordinate,Original
+passenger_count,Integer,Number of passengers,Original
+pickup_year,Integer,Year of pickup,Temporal
+pickup_month,Integer,Month of pickup (1-12),Temporal
+pickup_day,Integer,Day of month of pickup,Temporal
+pickup_hour,Integer,Hour of pickup (0-23),Temporal
+pickup_minute,Integer,Minute of pickup (0-59),Temporal
+pickup_dayofweek,Integer,"Day of week (0=Monday, 6=Sunday)",Temporal
+pickup_dayofyear,Integer,Day of year (1-365/366),Temporal
+pickup_day_name,String,"Name of day (Monday, Tuesday, etc.)",Temporal
+pickup_month_name,String,"Name of month (January, February, etc.)",Temporal
+pickup_quarter,Integer,Quarter of year (1-4),Temporal
+time_period,String,"Time period (Morning, Afternoon, Evening, Night)",Temporal
+day_type,String,"Day type (Weekday, Weekend)",Temporal
+peak_indicator,String,Peak/Off-Peak indicator,Temporal
+season,String,"Season (Spring, Summer, Fall, Winter)",Temporal
+trip_distance_miles,Float,Trip distance in miles (Haversine),Geographic
+fare_per_mile,Float,Fare amount per mile,Business
+distance_category,String,"Distance category (Short, Medium, Long, etc.)",Geographic
+pickup_area,String,Pickup area/borough,Geographic
+dropoff_area,String,Dropoff area/borough,Geographic
+trip_type,String,Same Area or Cross Area trip,Geographic
+fare_category,String,"Fare category (Low, Medium, High, Premium)",Business
+passenger_load,String,"Passenger load type (Solo, Couple, etc.)",Business
+fare_per_passenger,Float,Fare amount per passenger,Business
+estimated_duration_minutes,Float,Estimated trip duration in minutes,Business
+fare_per_minute,Float,Fare amount per minute,Business
+demand_period,String,Demand period classification,Demand
