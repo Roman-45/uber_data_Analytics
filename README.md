@@ -19,7 +19,8 @@ This project delivers a comprehensive business intelligence analysis of Uber rid
 - **Operational Efficiency**: Average trip distance of 2.34 miles with $5.47 per mile efficiency
 
 <!-- 📸 ADD SCREENSHOT HERE: screenshots/executive_summary/key_metrics_overview.png -->
-![Key Metrics Overview](screenshots/executive_summary/key_metrics_overview.png)
+<img width="479" height="273" alt="Image" src="https://github.com/user-attachments/assets/e7b86f60-13ea-4e4c-b98d-5dbc24548165" />
+
 *Executive dashboard showing key performance indicators and business metrics*
 
 ---
@@ -135,7 +136,8 @@ Format: CSV with 9 original columns
 | **Reasonable Fares** | 97.1% | 100% | +2.9% |
 
 <!-- 📸 ADD SCREENSHOT HERE: screenshots/process_documentation/01_data_loading.png -->
-![Data Loading Process](screenshots/process_documentation/01_data_loading.png)
+![Data Loading Process]
+
 *Initial data loading and exploration in Jupyter notebook showing dataset structure and basic statistics*
 
 ---
