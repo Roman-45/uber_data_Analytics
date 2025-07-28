@@ -135,7 +135,13 @@ Format: CSV with 9 original columns
 | **Valid Coordinates** | 96.8% | 100% | +3.2% |
 | **Reasonable Fares** | 97.1% | 100% | +2.9% |
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/process_documentation/01_data_loading.png -->
+2. <img width="573" height="255" alt="Image" src="https://github.com/user-attachments/assets/08626d7d-87ff-4c15-8681-b7dd87e2c4e6" />
+1. <img width="431" height="137" alt="Image" src="https://github.com/user-attachments/assets/153353d8-74e8-49f7-90c2-4589f3699620" />
+3. <img width="388" height="241" alt="Image" src="https://github.com/user-attachments/assets/1911a4b2-b901-43c3-8b03-b0a04ce0ad60" />
+
+4. <img width="603" height="445" alt="Image" src="https://github.com/user-attachments/assets/5887b700-5de6-4110-bc72-b42a0e70e1ff" />
+
+<img width="579" height="361" alt="Image" src="https://github.com/user-attachments/assets/e868ef3a-203b-46d4-a085-465df2641758" />
 ![Data Loading Process]
 
 *Initial data loading and exploration in Jupyter notebook showing dataset structure and basic statistics*
@@ -441,8 +447,12 @@ df_enhanced.to_csv('uber_enhanced_for_powerbi.csv', index=False)
 
 ### **Dashboard Architecture & Design**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/process_documentation/04_powerbi_data_import.png -->
-![Power BI Data Import](screenshots/process_documentation/04_powerbi_data_import.png)
+<img width="1800" height="1169" alt="Image" src="https://github.com/user-attachments/assets/2859fe1d-b7b6-4b66-8b2c-edc29382780e" />
+
+<img width="1800" height="1169" alt="Image" src="https://github.com/user-attachments/assets/f4f9787e-d3df-4b63-a370-dee8874f54df" />
+
+<img width="1800" height="1169" alt="Image" src="https://github.com/user-attachments/assets/fdea3e07-b16c-44b9-9e5e-4e19c592aa94" />
+
 *Power BI data import process showing column types and data validation*
 
 **Multi-Page Dashboard Strategy**:
@@ -453,9 +463,16 @@ df_enhanced.to_csv('uber_enhanced_for_powerbi.csv', index=False)
 
 ### **Advanced DAX Measures Implementation**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/process_documentation/05_dax_measures_creation.png -->
-![DAX Measures Creation](screenshots/process_documentation/05_dax_measures_creation.png)
+1. <img width="535" height="26" alt="Image" src="https://github.com/user-attachments/assets/69a42e1b-9729-4e6b-8106-b1dbc07f5451" />
+
 *DAX measure creation interface showing formula development and testing*
+11.<img width="535" height="26" alt="Image" src="https://github.com/user-attachments/assets/bc7b10bb-6d94-4e4c-9b66-e5a05646855c" />
+
+12.<img width="611" height="93" alt="Image" src="https://github.com/user-attachments/assets/e5b565ac-c699-42eb-94eb-f3763b807b80" />
+
+13.<img width="173" height="122" alt="Image" src="https://github.com/user-attachments/assets/67887775-3194-4aea-9fff-ea3e4547546e" />
+
+14.<img width="276" height="197" alt="Image" src="https://github.com/user-attachments/assets/177c5a21-7ed7-4715-a691-eb4f3c97e1e2" />
 
 ```dax
 // === PRIMARY BUSINESS METRICS ===
@@ -574,9 +591,16 @@ SWITCH(
 ## 📱 Dashboard Views & Visualizations
 
 ### **Page 1: Executive Overview Dashboard**
+**8 KPI Cards**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/dashboard_views/main_executive_dashboard.png -->
-![Executive Dashboard](screenshots/dashboard_views/main_executive_dashboard.png)
+
+<img width="780" height="531" alt="Image" src="https://github.com/user-attachments/assets/625af414-ad90-4e84-a581-d90da4a963cf" />
+
+
+
+
+
+
 *Main executive dashboard featuring KPI cards, demand patterns, and key business metrics*
 
 **Key Components**:
@@ -588,8 +612,8 @@ SWITCH(
 
 ### **Page 2: Temporal Analysis Deep Dive**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/dashboard_views/temporal_analysis_page.png -->
-![Temporal Analysis](screenshots/dashboard_views/temporal_analysis_page.png)
+<img width="798" height="559" alt="Image" src="https://github.com/user-attachments/assets/75383588-d90f-444b-b842-25a5aba73408" />
+
 *Comprehensive time-based analysis showing seasonal patterns, daily trends, and peak hour dynamics*
 
 **Analytics Features**:
@@ -601,8 +625,8 @@ SWITCH(
 
 ### **Page 3: Geographic Intelligence**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/dashboard_views/geographic_insights_page.png -->
-![Geographic Analysis](screenshots/dashboard_views/geographic_insights_page.png)
+<img width="580" height="329" alt="Image" src="https://github.com/user-attachments/assets/5586923e-c912-4126-9251-fe9e24d0390c" />
+
 *Location-based insights including borough analysis, trip patterns, and route optimization*
 
 **Geographic Features**:
@@ -615,7 +639,8 @@ SWITCH(
 ### **Page 4: Business Intelligence & Recommendations**
 
 <!-- 📸 ADD SCREENSHOT HERE: screenshots/dashboard_views/business_intelligence_page.png -->
-![Business Intelligence](screenshots/dashboard_views/business_intelligence_page.png)
+<img width="588" height="332" alt="Image" src="https://github.com/user-attachments/assets/c1749bd4-3224-4ae1-ac39-b90978f11e61" />
+
 *Advanced analytics including customer segmentation, pricing optimization, and strategic recommendations*
 
 **BI Components**:
@@ -629,42 +654,10 @@ SWITCH(
 
 ## 🎛️ Interactive Features & User Experience
 
-### **Dynamic Filtering & Cross-Filtering**
-
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/interactive_features/filters_and_slicers.png -->
-![Filters and Slicers](screenshots/interactive_features/filters_and_slicers.png)
-*Interactive filtering system with date ranges, geographic selectors, and category filters*
-
-**Slicer Implementation**:
-```
-Date Range Slicer:
-- Type: Between slicer
-- Field: pickup_datetime
-- Default: Full date range
-- Responsive: All visualizations
-
-Geographic Filter:
-- Type: Dropdown slicer
-- Field: pickup_area
-- Options: All, Manhattan, Brooklyn, Queens, Bronx, Staten Island
-- Multi-select: Enabled
-
-Time Period Filter:
-- Type: Tile slicer
-- Field: time_period
-- Visual: Icon-based selection
-- Options: Morning, Afternoon, Evening, Night
-
-Peak Indicator:
-- Type: Button slicer
-- Field: peak_indicator
-- Toggle: Peak vs Off-Peak analysis
-```
-
 ### **Cross-Filtering Demonstration**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/interactive_features/cross_filtering_demo.png -->
-![Cross-Filtering Demo](screenshots/interactive_features/cross_filtering_demo.png)
+<img width="580" height="329" alt="Image" src="https://github.com/user-attachments/assets/5586923e-c912-4126-9251-fe9e24d0390c" />
+
 *Cross-filtering in action: selecting chart elements filters related visualizations automatically*
 
 **Interactive Behavior**:
@@ -675,8 +668,8 @@ Peak Indicator:
 
 ### **Mobile Responsiveness**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/interactive_features/mobile_responsive_view.png -->
-![Mobile Responsive](screenshots/interactive_features/mobile_responsive_view.png)
+<img width="552" height="771" alt="Image" src="https://github.com/user-attachments/assets/1494068c-f740-4544-aa7c-e2706efda3e0" />
+
 *Dashboard optimized for mobile and tablet viewing with responsive layout design*
 
 ---
@@ -712,8 +705,9 @@ Peak Indicator:
 
 ### **💰 Revenue Optimization**
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/final_presentation/business_insights_summary.png -->
-![Business Insights](screenshots/final_presentation/business_insights_summary.png)
+
+<img width="592" height="356" alt="Image" src="https://github.com/user-attachments/assets/3a67ddd5-18f5-4ae5-aaae-d2a0d58d219c" />
+
 *Summary of key business insights and strategic recommendations for operational optimization*
 
 **Fare Category Performance**:
@@ -771,9 +765,8 @@ Peak Indicator:
 
 ## 🏆 Key Performance Indicators Dashboard
 
-<!-- 📸 ADD SCREENSHOT HERE: screenshots/final_presentation/kpi_cards_showcase.png -->
-![KPI Cards Showcase](screenshots/final_presentation/kpi_cards_showcase.png)
-*Professional KPI cards with conditional formatting and real-time business metrics*
+<img width="480" height="275" alt="Image" src="https://github.com/user-attachments/assets/dac67dea-c381-4e26-8045-4a12859a0459" />
+
 
 ### **Executive Metrics Summary**
 
@@ -1078,7 +1071,7 @@ def implement_predictive_analytics():
 - **Student ID**: 26771 
 - **Email**: sam.ngomi100@gmail.com
 - **LinkedIn**: (https://www.linkedin.com/in/ngomituje-samuel-8bb260256/)
-- **GitHub**:Roman-45
+- **GitHub**:(https://github.com/Roman-45)
 
 **Academic Supervision**:
 - **Instructor**: Eric Maniraguha
@@ -1089,16 +1082,13 @@ def implement_predictive_analytics():
 ### **Technical Support & Resources**
 
 **Course Resources**:
-- **Course Portal**: [Course Management System URL]
-- **Assignment Guidelines**: [Assignment PDF Link]
-- **Data Source**: [Kaggle Dataset URL]
-- **Power BI Documentation**: [Microsoft Power BI Docs]
+- **Data Source**: (https://www.kaggle.com/datasets/yasserh/uber-fares-dataset)
 
 **Additional Learning Resources**:
-- **Python for Data Analysis**: [Book/Resource Links]
-- **Power BI Learning Path**: [Microsoft Learn URLs]
-- **Business Intelligence Best Practices**: [Industry Resources]
-- **Statistical Analysis Guides**: [Academic Resources]
+- **Python for Data Analysis**: (https://www.youtube.com/watch?v=FwjaHCVNBWA)
+- **Power BI Learning Path**: (https://www.microsoft.com/en-us/power-platform/products/power-bi)
+- **Business Intelligence Best Practices**: (https://improvado.io/blog/business-intelligence-strategy)
+
 
 ---
 
