@@ -1237,7 +1237,7 @@ This project demonstrates mastery of modern data science and business intelligen
 
 *Project completed with excellence for INSY 8413 - Introduction to Big Data Analytics*  
 *Adventist University of Central Africa | July 2025*  
-*© Ngomituje - Academic Excellence in Data Science & Business Intelligence*
+*© Ngomituje - Academic Excellence in Data Science And Other fields
 
 ---
 
